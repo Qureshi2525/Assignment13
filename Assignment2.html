@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* ion-icon{
+            background-color: aqua;
+            border-image-width: 30px;
+            outline-width: 30px;
+        } */
+        .work{
+        background-color: rgba(96, 125, 219, 0.486);
+        color: rgb(55, 61, 61);
+       width: auto;
+        text-transform: capitalize;
+        font-size: large;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        }
+        .buttons{
+            margin-left: 50%;
+        }
+        .work:hover{
+        background-color: rgba(7, 47, 175, 0.671);
+        color: rgb(19, 20, 20);
+       width: auto;
+        text-transform: capitalize;
+        font-size: large;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+    }
+        .main>div{
+           background-color: rgb(255, 254, 254); 
+        display: inline-block;
+    }
+    .a{
+        margin-left: 40%;
+        margin-top: 5%;
+        box-shadow: 25px 15px 15px rgb(32, 50, 110);
+        border-radius: 8px;
+        padding: 5px 5px;
+        width: 25%;
+    }
+    .facebook{
+       font-size: 80px;
+       color: blue;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+        }
+        .connect{
+            font-size: 30px;
+            color: rgb(10, 10, 10);
+            padding-bottom: 40%;
+
+        }
+       
+   
+        input:focus{
+        background-color: rgb(153, 164, 197);
+        border: none;
+    }
+    input:hover{
+        background-color: rgb(64, 111, 240);
+        cursor: pointer;}
+        input{
+        font-size: x-large;
+        color: rgb(16, 18, 24);
+        background-color: rgba(248, 243, 233, 0.637);
+        border: 1px solid rgb(12, 11, 12);
+        border-radius: 3px;
+        /* border: none; */
+        cursor: pointer;
+        padding: 5px;
+   }    
+   .signup{
+        background-color: blue;
+        color: aliceblue;
+       width: 320px;
+       height: 40px;
+        text-transform: capitalize;
+        font-size: x-large;
+        /* border: none; */
+        border-radius: 5px;}
+        .signup1{
+        
+        color: blue;
+        text-transform: capitalize;
+        font-size: medium;
+        border: none;
+        margin-left: 30%;
+        }
+        .signup2{
+        
+        color: blue;
+        text-transform: capitalize;
+        font-size: medium;
+        border-radius: 6px;
+        background-color: rgba(0, 100, 0, 0.959);
+        color: aliceblue;
+        margin-left: 30%;
+        margin-bottom: 4%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        text-align: center;
+        }
+        .blink {
+                animation: blinker 1.0s linear infinite;
+                color: rgb(255, 17, 0);
+                font-family: sans-serif;
+                /* text-align: center; */
+                margin: 5% 5%;
+                font-size: large;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+            .marquee{
+            animation: blinker 1.5s linear infinite;
+            color: rgb(4, 102, 69);
+            font-family: sans-serif;
+            transition: all;
+            font-size: xx-large;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+        button[id=work1]{
+            background-image: url(./classwork.jpg);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: calc(capitalize lowercase);
+        }
+        button[id=work2]{
+            background-image: url(./reg.png);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: calc(capitalize lowercase);
+        }
+        button[id=work3]{
+            background-image: url(./fac.webp);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: calc(capitalize lowercase);
+        }
+        button[id=work4]{
+            background-image: url(./abou.webp);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: calc(capitalize lowercase);
+        }
+        </style>
+</head>
+<body>
+    <marquee class="marquee">YASIR RASHEED QURESHI WEB AND AAP CCO - 118488 TEACHER SIR RIZWAN BHATTI.</marquee>
+    
+    <div class="buttons">  
+        <button class="work" id="work1"><a href="./index.html">CLASS WORK</a></button>
+        <button class="work" id="work2"><a href="./Assignment1.html">REGISTRATION</a></button>
+        <button class="work" id="work3"><a href="./Assignment2.html">FACEBOOK</a></button>
+        <button class="work" id="work4"><a href="./about.html">About</a></button> 
+    </div>
+    
+    <div class="main">
+    <div>
+       <p>
+        <span class="facebook">facebook</span><br> 
+        <span class="connect">Connect with friends and the world <br>around you on Facebook.</span>
+        </p>
+    
+    </div>
+    
+
+
+
+
+        <div class="a">
+            <label></label>
+            <br>
+            <input type="email" placeholder="Email or phone number">
+            <br>
+            <label></label>
+            <br>
+            <input type="password" placeholder="PASSWORD">
+            <br>
+<br>
+<button class="signup">LOGIN</button>
+<br>
+<br>
+<button class="signup1">Forgot password</button>
+<hr>
+<p class="blink">YASIR RASHEED CCO - 118488</p>
+
+<button class="signup2">Creat new account</button>
+
+        </div>
+</div>
+
+<!-- <h2>LOGIN</h2>
+    <div></div>
+    <Label for="">Email</Label>
+    <br>
+    <ion-icon name="mail"></ion-icon>
+    <input type="email">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> -->
+    
+    
+</body>
+</html>

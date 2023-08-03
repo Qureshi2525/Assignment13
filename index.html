@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASS 8 WORK</title>
+<style>
+    h2{
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    h2:hover{
+        text-align: center;
+        text-decoration: double underline;
+        font-family: Arial, Helvetica, sans-serif;
+        color: aquamarine;
+        cursor: pointer ;
+    }
+    body{
+        background: url(./IMG-20230731-WA0006.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    #main{
+       /* border: 1px solid red; */
+       background-color: rgba(210, 198, 196, 0.362); 
+        width: 25%;
+        margin: 13% 50% ;
+        padding: 5px 35px;
+        box-shadow: 8px 8px 20px aquamarine;
+        border-radius: 10px;
+    }
+    input{
+        font-size: x-large;
+        color: rgb(5, 60, 243);
+        background-color: wheat;
+        border: 2px solid rebeccapurple;
+        border-radius: 3px;
+        /* border: none; */
+        cursor: pointer;
+        text-transform: uppercase; 
+        padding: 5px;
+   }
+    input:focus{
+        background-color: aqua;
+        border: none;
+    }
+    input:hover{
+        background-color: rgb(1, 78, 78);
+        cursor: pointer;
+    }
+    label{
+        color:rgb(5, 65, 45);
+        text-shadow: 20%;
+        font-size: x-large;
+        }
+        label:hover{
+        color:aquamarine;
+        text-shadow: 20%;
+        font-size: x-large;
+        cursor: pointer;
+        }
+        input[type=email]{
+            background-image: url(./email\ icon.jpg);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+        }
+        input[type=text]{
+            background-image: url(./MANICON.jpg);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+        }
+    button{
+        background-color: rgba(127, 255, 212, 0.486);
+        color: aliceblue;
+        text-transform: capitalize;
+        font-size: x-large;
+        /* border: none; */
+        border-radius: 5px;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: violet;
+        text-decoration: underline;
+    }
+    
+    .blink {
+                animation: blinker 1.0s linear infinite;
+                color: rgb(7, 74, 82);
+                font-family: sans-serif;
+                /* text-align: center; */
+                margin: 5% 5%;
+                font-size:large;
+                font-weight: bolder;
+            }
+            @keyframes blinker {
+                40% {
+                    opacity: 0;
+                }
+            }
+            .marquee{
+            animation: blinker 1.5s linear infinite;
+            color: rgb(244, 250, 248);
+            font-family: sans-serif;
+            transition: all;
+            font-size:xx-large;
+
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+        button[id=work1]{
+            background-image: url(./classwork.jpg);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: calc(capitalize lowercase);
+        }
+        button[id=work2]{
+            background-image: url(./reg.png);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: calc(capitalize lowercase);
+        }
+        button[id=work3]{
+            background-image: url(./fac.webp);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: calc(capitalize lowercase);
+        }
+        button[id=work4]{
+            background-image: url(./abou.webp);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: calc(capitalize lowercase);
+        }
+</style>
+</head>
+<body>
+    <marquee class="marquee">YASIR RASHEED QURESHI WEB AND AAP CCO - 118488 TEACHER SIR RIZWAN BHATTI.</marquee>
+    <div class="buttons">  
+        <button id="work1"><a href="./index.html">CLASS WORK</a></button>
+        <button id="work2"><a href="./Assignment1.html">REGISTRATION</a></button>
+        <button id="work3"><a href="./Assignment2.html">FACEBOOK</a></button>
+        <button id="work4"><a href="./about.html">About</a></button>
+         </div>
+    
+
+    <div id="main">
+<h2>CLASS WORK</h2>
+        <h2>Rigester Here</h2>
+   
+   <label>First Name</label>
+<br>
+<input type="text">
+<br>
+<label>Last Name</label>
+<br>
+<input type="text">
+<br>
+<label>Email</label>
+<br>
+<input type="email">
+<br>
+<label for="">Gender</label>
+<br>
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+<br>
+<br>
+<button>Submit</button>
+<br>
+<p class="blink">YASIR RASHEED CCO - 118488</p>
+</div>
+
+
+</body>
+</html>

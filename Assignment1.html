@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        background: url(./background4.webp);
+        background-repeat: no-repeat;
+        background-size: cover;   
+    }
+
+        .blink {
+                animation: blinker 1.0s linear infinite;
+                color: rgb(255, 17, 0);
+                font-family: sans-serif;
+                /* text-align: center; */
+                margin: 5% 5%;
+                font-size: large;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+            .marquee{
+            animation: blinker 1.5s linear infinite;
+            color: rgb(4, 102, 69);
+            font-family: sans-serif;
+            transition: all;
+            font-size: xx-large;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+        h1{
+        text-align: center;
+        color: rgb(94, 116, 240);
+        text-decoration: underline;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    h1:hover{
+        text-align: center;
+        text-decoration: double underline;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(11, 46, 243);
+        cursor: pointer ;
+    }
+        #main{
+       /* border: 1px solid red; */
+       background-color: rgba(255, 254, 254, 0.925); 
+        width: 25%;
+        margin: 13% 35%;
+        padding: 5px 35px;
+        box-shadow: 25px 15px 35px rgb(32, 50, 110);
+        border-radius: 10px;
+    }
+    input[type=email]{
+            background-image: url(./email\ icon.jpg);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: lowercase;
+        }
+        input:focus{
+        background-color: rgb(123, 138, 185);
+        border: none;
+    }
+    input:hover{
+        background-color: rgb(64, 111, 240);
+        cursor: pointer;}
+        input[type=text]{
+            background-image: url(./MANICON.jpg);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+        }
+        input[type=password]{
+            background-image: url(./PASSWORD\ ICON.jpg);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: calc(capitalize lowercase);
+        }
+        input{
+        font-size: x-large;
+        color: rgb(36, 44, 70);
+        background-color: wheat;
+        border: 2px solid rebeccapurple;
+        border-radius: 3px;
+        /* border: none; */
+        cursor: pointer;
+        padding: 5px;
+   }
+   .signup{
+        background-color: rgb(32, 50, 110);
+        color: aliceblue;
+       width: 350px;
+        text-transform: capitalize;
+        font-size: x-large;
+        /* border: none; */
+        border-radius: 5px;}
+        select{
+            width: 350px;
+            font-size: large;
+            cursor: pointer;
+            border-color: blueviolet;
+       
+        }
+        .work{
+        background-color: rgba(96, 125, 219, 0.486);
+        color: rgb(55, 61, 61);
+       width: auto;
+        text-transform: capitalize;
+        font-size: large;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        }
+        .buttons{
+            margin-left: 50%;
+        }
+        .work:hover{
+        background-color: rgba(7, 47, 175, 0.671);
+        color: rgb(19, 20, 20);
+       width: auto;
+        text-transform: capitalize;
+        font-size: large;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        }
+        button[id=work1]{
+            background-image: url(./classwork.jpg);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: calc(capitalize lowercase);
+        }
+        button[id=work2]{
+            background-image: url(./reg.png);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: calc(capitalize lowercase);
+        }
+        button[id=work3]{
+            background-image: url(./fac.webp);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: calc(capitalize lowercase);
+        }
+        button[id=work4]{
+            background-image: url(./abou.webp);
+            background-size: 35px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: calc(capitalize lowercase);
+        }
+      </style>
+
+</head>
+<body>
+    <marquee class="marquee">YASIR RASHEED QURESHI WEB AND AAP CCO - 118488 TEACHER SIR RIZWAN BHATTI.</marquee>
+    <div class="buttons">  
+        <button class="work" id="work1"><a href="./index.html">CLASS WORK</a></button>
+        <button class="work" id="work2"><a href="./Assignment1.html">REGISTRATION</a></button>
+        <button class="work" id="work3"><a href="./Assignment2.html">FACEBOOK</a></button>
+        <button class="work" id="work4"><a href="./about.html">About</a></button> 
+         </div>
+
+  
+    <div id="main">
+
+        <h1>Registration</h1>
+   
+   <label></label>
+<br>
+<input type="text" placeholder="FIRST NAME">
+<br>
+<label></label>
+<br>
+<input type="text" placeholder="LAST NAME">
+<br>
+<label></label>
+<br>
+<input type="email" placeholder="EMAIL ADDRESS">
+<br>
+<label></label>
+<br>
+<input type="password" placeholder="PASSWORD">
+<br>
+<label for=""></label>
+<br>
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+<br>
+<br>
+
+<select id="city" name="city" class="form-control required hei_imp pt-10 pb-10 font-14 mb-10">
+    <option>SELECT CITY</option>
+    <option value="aw">KARACHI</option>
+    <option value="aw">HYADRABAD</option>
+    <option value="aw">RAWALPINDI</option>
+    <option value="aw">ISLAMABAD</option>
+    <option value="aw">FAISALABAD</option>
+    <option value="aw">SIALKOT</option>
+    <option value="aw">LAHORE</option>
+    <option value="aw">SHEKHOPURA</option>
+    <option value="aw">QUETTA</option>
+    <option value="aw">PESHAWAR</option>
+    </select>
+<br>
+<br>
+
+<select id="country" name="country" class="form-control required hei_imp pt-10 pb-10 font-14 mb-10">
+    <option>SELECT COUNTRY</option>
+    <option value="aw">Africa</option>
+    <option value="aw">India</option>
+    <option value="aw">Pakistan</option>
+    <option value="aw">USA</option>
+    <option value="aw">Iraq</option>
+    <option value="aw">Newzeland</option>
+    <option value="aw">Canada</option>
+    <option value="aw">Dubai</option>
+    <option value="aw">Saudi arab</option>
+    </select>
+    <br>
+    <p class="blink">YASIR RASHEED CCO - 118488</p>
+    <br>
+
+<button class="signup">SIGNUP</button>
+</div>
+
+
+
+
+
+
+</body>
+</html>
